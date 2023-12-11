@@ -12,7 +12,7 @@ function paintTypeChecker(type, color) {
   }
   
 };
-
+console.log(paintTypeChecker("emulsion", "red"));
 console.log(paintTypeChecker("satin", "tiffany"));
 
 
