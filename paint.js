@@ -7,14 +7,15 @@ function paintTypeChecker(type, color) {
     } else if (type === "emulsion" && color === "white") {
         return `${type}  ${color} is a beautiful color`;
     } else {
-        if (type === "emulsion" && color !== "white") {
-            return `${type} ${color} is a beautiful color! but it is not available!`;
-    }
+        return `${type} ${color} is a beautiful color! but it is not available!`;
+    
   }
   
 };
-const checker = paintTypeChecker("emulsion", "white");
-console.log(paintTypeChecker("satin", "brown"));
+
+console.log(paintTypeChecker("satin", "tiffany"));
+
+
 
 
 
