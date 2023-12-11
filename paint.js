@@ -3,9 +3,9 @@
 
 function paintTypeChecker(type, color) {
     if (type === "satin" && color === "tiffany" || color === "blue" || color === "brown") {
-        return `${type} ${color} is a beautiful color!`;
+        return `${type} ${color} is a beautiful color! It is available!`;
     } else if (type === "emulsion" && color === "white") {
-        return `${type}  ${color} okay, is a beautiful color! It is available`;
+        return `${type}  ${color} okay, is a beautiful color!`;
     } else {
         return `${type} ${color} is a beautiful color! but it is not available!`;
     
